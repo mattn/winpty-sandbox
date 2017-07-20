@@ -86,7 +86,6 @@ main(int argc, char* argv[]) {
   }
   while(*args == ' ') args++;
 
-  _putws(args);
   spawn_config = winpty_spawn_config_new(
     WINPTY_SPAWN_FLAG_AUTO_SHUTDOWN | WINPTY_SPAWN_FLAG_EXIT_AFTER_SHUTDOWN,
     NULL,
