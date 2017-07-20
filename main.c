@@ -77,7 +77,7 @@ main(int argc, char* argv[]) {
     if (ret == FALSE || nread == 0) {
       break;
     }
-	puts(buf);
+    puts(buf);
   }
 
   CloseHandle(child);
